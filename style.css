@@ -11,7 +11,6 @@
 body {
   width: 100%;
   background: #f3f2f8;
-  position: relative;
   display: flex;
 }
 h3 {
@@ -209,7 +208,7 @@ p {
 }
 .ranking {
   width: 15rem;
-  height: 20rem;
+  height: 100%;
   background-color: white;
   border-radius: 10px;
 }
@@ -238,7 +237,7 @@ p {
 
 .groups {
   width: 32rem;
-  height: 20rem;
+  height: 100%;
   background-color: white;
   border-radius: 10px;
   margin-left: 2rem;
@@ -255,7 +254,7 @@ p {
   font-size: 18px;
 }
 
-.groups .group-content {
+.group-content {
   margin: 0.5rem;
   border-bottom: 1px solid lightgray;
 }
@@ -269,13 +268,13 @@ p {
   margin: 0 2rem;
   margin-top: -15rem;
   width: 16rem;
-  height: 35rem;
+  height: 100%;
   background-color: white;
   border-radius: 10px;
 }
 
 .sidebar-head {
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 0.5rem;
   border-bottom: 1px solid lightgray;
   color: #3b68f8;
